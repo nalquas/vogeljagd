@@ -1,5 +1,5 @@
 -- title:  Vogeljagd
--- author: nickifr
+-- author: Nalquas
 -- desc:   A simple game about shooting birds. Inspired by Moorhuhn.
 -- script: lua
 -- input:  mouse
@@ -11,7 +11,7 @@
 
 -- ============LICENSE============
 -- Vogeljagd - An arcade game about shooting birds
--- Copyright (C) 2017  Niklas 'nickifr' Freund
+-- Copyright (C) 2017  Niklas 'Nalquas' Freund
 --
 -- This program is free software: you can redistribute it and/or modify
 -- it under the terms of the GNU General Public License as published by
@@ -179,7 +179,7 @@ function TIC()
 		print("HIGHSCORE: " .. highscore, 84, 51, 1, false, 1)
 		print("Press your MouseButton to begin!", 34, 63, 1, false, 1)
 		print("Copyright (C) 2017", 73, 115, 15, false, 1)
-		print("Niklas 'nickifr' Freund", 58, 122, 15, false, 1)
+		print("Niklas 'Nalquas' Freund", 58, 122, 15, false, 1)
 		print("GNU General Public License Version 3", 19, 129, 15, false, 1)
 		print("V"..versionNr, 2, 2, 15, false, 1)
 		
